@@ -1,6 +1,4 @@
-# Dish Deduplication and Clustering
-
-This repository provides tools for deduplicating and clustering dishes based on their flavor profiles and ingredient lists. It includes a Streamlit UI for dish exploration, a FastAPI backend for serving dish data, and Python scripts/notebooks for clustering analysis.
+# Bhogi Assignment
 
 ---
 
@@ -8,14 +6,15 @@ This repository provides tools for deduplicating and clustering dishes based on 
 
 ```
 .
-├── app.py                        # Streamlit UI for interactive dish exploration
-├── api_design.py                 # FastAPI backend serving dish matching data 
-├── dish_selector.py              # Python logic for dish selection and similarity
-├── notebooks/                    #  Jupyter notebooks for exploration
+├── app.py                        # Streamlit UI for interactive dish exploration (Q3)
+├── api_design.py                 # FastAPI backend serving dish matching data (Q2)
+├── dish_selector.py              # Python logic for dish selection and similarity (Q1)
+├── notebooks/                    # Jupyter notebooks for exploration
+  ├── Q1-Dish-Matching.ipynb        # Notebook for Q1
+  ├── Q4-Solution-Design            # Notebook for Q4
 ├── requirements.txt              # Python dependencies for both UI and backend
 ├── README.md                     # Project documentation (this file)
 ├── csv_data/                     # Folder containd csv data files
-└── ...
 ```
 
 
