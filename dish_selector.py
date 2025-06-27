@@ -42,7 +42,7 @@ def get_top_dishes(profiles, ks, knn_model, dishes_df):
 
 
 def return_all_dishes():
-    dishes_df = load('./data.csv')
+    dishes_df = load('./csv_data/data.csv')
     flavor_values = get_flavor_values(dishes_df)
     knn = fit_knn(flavor_values, 'euclidean')
 
