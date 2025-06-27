@@ -11,7 +11,7 @@
 ├── dish_selector.py              # Python logic for dish selection and similarity (Q1)
 ├── notebooks/                    # Jupyter notebooks for exploration
   ├── Q1-Dish-Matching.ipynb        # Notebook for Q1
-  ├── Q4-Solution-Design            # Notebook for Q4
+  ├── Q4-Solution-Design.ipynb      # Notebook for Q4
 ├── requirements.txt              # Python dependencies for both UI and backend
 ├── README.md                     # Project documentation (this file)
 ├── csv_data/                     # Folder containd csv data files
